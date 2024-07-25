@@ -10,7 +10,7 @@ const PORT1 = process.env.PORT || 8000;
 
 app.get("/", function (req, res) {
 	console.log("A new request received at " + Date.now());
-	res.send("Home page. -- new");
+	res.send("                  Home page. -- new    :)  :)            ");
 });
 
 
